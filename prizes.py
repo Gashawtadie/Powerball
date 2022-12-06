@@ -10,7 +10,7 @@ class PrizeSelector(Powerball):
 
         intersect = len(set(self.luckyNumber).intersection(set(self.winningNumber)))
         commonNumbers = (set(self.winningNumber)).intersection(set(self.luckyNumber))
-        print(Fore.LIGHTWHITE_EX + f"Correct white balls: {intersect} )")
+        print(Fore.LIGHTWHITE_EX + f"Correct white balls: {intersect}")
         print("The common Numbers are:", commonNumbers)
         if intersect == 5 and self.luckyNumber == self.winningNumber:
             print("Bingo You won☺♥☺♥!! you have 5 correct white balls and the power ball \nYou won Jackpot 324,000,000$")
