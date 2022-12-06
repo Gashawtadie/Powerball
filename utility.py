@@ -46,12 +46,5 @@ class Powerball:
         print(Fore.LIGHTWHITE_EX + "Your lucky numbers is:\n", Fore.MAGENTA + lucNumber,
               Fore.YELLOW + str(self.powerballlucky))
         print()
-    # def intersection(self):
-    #     intersect = len(set(self.winningNumber).intersection(set(self.luckyNumber)))
-    #     print(Fore.LIGHTWHITE_EX + f"Correct white balls: {intersect}")
 
-# gashu = Powerball()
-# gashu.create_number()
-# gashu.show()
-# gashu.intersection()
 
