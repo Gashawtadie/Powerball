@@ -33,7 +33,7 @@ class Powerball:
         """ in this method i use the variable that is Append from the "self,wiinning number" like string
         but by using the "winNumbur += str(f" {variable} "
         by spliting each numbers its possible to split the numbers  """
-        print(Fore.BLUE, f" ♦♦♦ Welcome to MIFAL HAPAIS ♦♦♦")
+        print(Fore.BLUE, f"♦♦♦ Welcome to MIFAL HAPAIS ♦♦♦")
         winNumbers = " "
         for num in self.winningNumber:
             winNumbers += str(f" {num} ")
